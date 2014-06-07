@@ -26,7 +26,7 @@ void loop() {
     val = Serial.read();         // read it and store it in 'val'
     switch (val) {
     case 0x01:
-        penUp();
+      penUp();
       break;
     case 0x02:
       penDown();
